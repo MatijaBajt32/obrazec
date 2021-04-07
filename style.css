@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("img/Nogomet.jpg");
+    size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:"Comic Sans MS";
+}
+h3,h1{
+    text-align:center;
+}
+#notranji{
+    padding-left:5%;
+    padding-right:5%;
+    color:black;
+}
+#zaključni{
+    margin-left:40%;
+}
+#zaključni:hover{
+    margin-left:40%;
+    background-color:blue;
+    color:white;
+}
+#glavni{
+    margin-top:1% ;
+    margin-left:auto ;
+    margin-right:auto ;
+    border:2px solid black;
+    background: white;
+    width:30%;
+	min-width:300px;
+    size: 100%;
+    background-size: 100%;
+    background-color:#b3ffd9;
+    border-radius: 25px;
+    height:auto;
+}
+#glava{
+    background-color: #ffff66;
+
+}
+#glava:hover{
+    background-color: #5cd65c;
+}
+#naslov{
+    color: black;
+}
+#prikazan{
+    visibility:hidden;
+}
+#drzave{
+    width:30%;
+}
+input[type="text"]{
+    border-radius: 8px;
+    width:45%;
+    height:50%;
+    border:none;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+    background: #f2f2f2;
+    padding:2%;
+}
+
+
+select{
+    width:30%;
+    height:50%;
+    border:none;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+input:hover{
+    border: 2px solid #ffffe6;
+}
+#premik{
+    width: 130px;
+    height: 130px;
+    background-image: url("img/nogometna.gif");
+    position: relative;
+    animation: premik 10s infinite;
+    animation-delay:1s;
+    animation-direction:alternate;
+    border-radius:50%;
+    background-position:center;
+}
+@keyframes premik {
+    0%   { left: 0px; top: 0px;}
+    50%  { left: 90%; top: 0px;}
+    100% { left: 0px; top: 0px;}
+  }
+
+  #div{
+      height:7%;
+  }
